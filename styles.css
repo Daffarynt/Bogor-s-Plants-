@@ -168,3 +168,109 @@ body {
     font-size: 20px;
     vertical-align: middle;
 }
+
+
+/* test gallery */
+
+.banner {
+    width: 100%; /* Banner memenuhi lebar penuh */
+    height: auto; /* Tinggi banner otomatis */
+    background-image: url("pictures/Bannergallery.jpg"); /* Gunakan gambar banner Anda */
+    background-size: cover; /* Tutupi seluruh area banner dengan gambar */
+    background-position: center; /* Posisikan gambar di tengah */
+    padding: 20px; /* Tambahkan padding untuk konten di dalam banner */
+    text-align: center; /* Rata tengah konten di dalam banner */
+    margin-top: 6em;
+  }
+
+.piccont {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12em;
+    margin-bottom: 17em;
+  }
+  
+  .image {
+    margin: 20px;
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and fill the entire space */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .image:hover img {
+    transform: scale(1.1); /* Zoom in on hover */
+  }
+  
+  /* Feedback page */
+
+  /* style.css */
+.feed {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-top:5em;
+    margin-bottom:10em ;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #aaaaaa; /* Offset X, Offset Y, Blur Radius, Color */
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #3d8b3d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #295f29;
+  }
+  
